@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="task4.css">
+    <script src="task4.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <input type="text" id="display" readonly>
+        <div class="row">
+            <div class="button"><button onclick="appendToDisplay('7')">7</button></div>
+            <div class="button"><button onclick="appendToDisplay('8')">8</button></div>
+            <div class="button"><button onclick="appendToDisplay('9')">9</button></div>
+            <div class="button"><button onclick="appendToDisplay('/')">/</button></div>
+        </div>
+        <div class="row">
+            <div class="button"><button onclick="appendToDisplay('4')">4</button></div>
+            <div class="button"><button onclick="appendToDisplay('5')">5</button></div>
+            <div class="button"><button onclick="appendToDisplay('6')">6</button></div>
+            <div class="button"><button onclick="appendToDisplay('*')">*</button></div>
+        </div>
+        <div class="row">
+            <div class="button"><button onclick="appendToDisplay('1')">1</button></div>
+            <div class="button"><button onclick="appendToDisplay('2')">2</button></div>
+            <div class="button"><button onclick="appendToDisplay('3')">3</button></div>
+            <div class="button"><button onclick="appendToDisplay('-')">-</button></div>
+        </div>
+        <div class="row">
+            <div class="button"><button onclick="appendToDisplay('0')">0</button></div>
+            <div class="button"><button onclick="appendToDisplay('.')">.</button></div>
+            <div class="button"><button onclick="calculate()">=</button></div>
+            <div class="button"><button onclick="appendToDisplay('+')">+</button></div>
+        </div>
+        <div class="row">
+            <div class="button" style="flex: 2;"><button onclick="clearDisplay()">Clear</button></div>
+        </div>
+    </div>
+</body>
+</html>
+

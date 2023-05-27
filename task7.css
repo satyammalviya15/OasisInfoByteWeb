@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  /* Login Styles */
+  .login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .login-container h2 {
+    margin-top: 0;
+  }
+  
+  .login-container form {
+    margin-top: 20px;
+  }
+  
+  .login-container form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .login-container form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-container form input[type="text"],
+  .login-container form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .login-container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Order Styles */
+  .order-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .order-container h2 {
+    margin-top: 0;
+  }
+  
+  .order-container form {
+    margin-top: 20px;
+  }
+  
+  .order-container form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .order-container form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .order-container form select,
+  .order-container form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .order-container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
